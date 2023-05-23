@@ -62,12 +62,12 @@ background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
 		    <nav id="docs-nav" class="docs-nav navbar">
 			    <ul class="section-items list-unstyled nav flex-column pb-3">
 				    <li class="nav-item section-title"><a class="nav-link scrollto active" href="#section-1"><span class="theme-icon-holder me-2"><i class="fas fa-map-signs"></i></span>Temel Bilgiler</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-5">Yazı Yazdıralım</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-5">Algoritma Nedir?</a></li>
 
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-1">Toplama İşlemi</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-2">Çıkarma İşlemi</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-3">Çarpma İşlemi</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-4">Bölme İşlemi</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-1">Proglamlama Nedir?</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-2">Neler Yapılabilir?</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-3">Neden Programlama?</a></li>
+				    <!-- <li class="nav-item"><a class="nav-link scrollto" href="#item-1-4">Bölme İşlemi</a></li> -->
 				    <li class="nav-item"><a class="nav-link scrollto" href="#item-1-6">Quiz</a></li>
 				    <!-- <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-2"><span class="theme-icon-holder me-2"><i class="fas fa-arrow-down"></i></span>Installation</a></li>
 				    <li class="nav-item"><a class="nav-link scrollto" href="#item-2-1">Section Item 2.1</a></li>
@@ -111,7 +111,13 @@ background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
 				    <header class="docs-header">
 					    <h1 class="docs-heading">Haydi Başlayalım <span class="docs-time"></span></h1>
 					    <section class="docs-intro">
-						    <p>Merhaba çocuklar! Bugün sizlere programlama dünyasının en popüler dillerinden biri olan Python'u öğrenmeye davet ediyorum. Python, basit ve anlaşılır yapısıyla özellikle öğrenmeye yeni başlayanlar için ideal bir seçimdir. Python öğrenmek için ihtiyacınız olan tek şey biraz sabır ve tutku. Eğer programlama dünyasına meraklıysanız, Python size büyük bir kapı açacaktır. Haydi çocuklar, Python öğrenmeye başlayalım!</p>
+						    <p>Merhaba çocuklar!<br><br>
+
+								Bugün sizlere algoritma ve programlama dünyasını keşfetmeye davet ediyorum! Algoritma, adımların sıralı bir listesiyle bir problemi çözmek veya bir görevi yerine getirmek demektir. Programlama ise bu adımları bilgisayarlar veya robotlar üzerinden anlatmak için kullanılan bir dil ve süreçtir.<br><br>
+								
+								Algoritma ve programlama öğrenmek size yaratıcılık, mantıksal düşünme becerileri, problem çözme yetenekleri ve eğlenceli projeler yapma imkanı sunar. Bu becerilerle gelecekte birçok fırsata sahip olabilirsiniz.<br><br>
+								
+								Haydi, algoritma ve programlama dünyasına adım atarak yeni bir maceraya başlayalım!</p>
 						</section><!--//docs-intro-->
 						<br>
 						<div class="callout-block callout-block-info">
@@ -123,122 +129,69 @@ background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
 		                            </span><!--//icon-holder-->
 	                                Bu kursa başlamadan önce okuyunuz.
 	                            </h4>
-                                <p>Buradaki kodları denemek için <a href="https://code.visualstudio.com/">VS Code</a> indirebilirsiniz. Bunun için ebeveynlerinizden yardım almanız gerekebilir. <a>Nasıl kurabilirim?</a> adlı videodan yardım alarak da yapabilirsiniz.</p>
+                                <p>Buradaki dersleri takip etmek için kodlama yapmanıza gerek olmadığı için bilgisayardan takip edilmesi şart değildir.</p>
                             </div><!--//content-->
                         </div><!--//callout-block-->
                         
 						<section class="docs-section" id="item-1-5">
-							<h2 class="section-heading">Ekrana yazı yazdıralım.</h2>
-							<p>Python'da ekrana yazı yazdırmak çok kolay! Aşağıdaki kod satırını kullanarak "Merhaba Dünya!" yazısını ekrana yazdırabilirsiniz:</p>
-							<div class="docs-code-block">
-<pre class="shadow-lg rounded"><code class="json hljs">print("merhaba dünya")	
-</code></pre>
-							</div>
-							<p>
-								Eğer başka bir yazı yazdırmak isterseniz, print fonksiyonunun içine yazıyı tırnak işaretleri arasında yazmanız yeterlidir. Örneğin, aşağıdaki kod satırı "Python harika bir dil!" yazısını ekrana yazdıracaktır:
-							</p>
-							<div class="docs-code-block">
-<pre class="shadow-lg rounded"><code class="json hljs">print("Python harika bir dil!")	
-</code></pre>
+							<h2 class="section-heading">Algoritma Nedir?</h2>
+							<p>Algoritma, bir problemi çözmek veya bir görevi tamamlamak için izlenmesi gereken adımların sıralı bir listesidir. Düşünün, günlük hayatta yaptığınız birçok şey aslında birer algoritmadır.<br><br>
+
+								Bir örnek vermek gerekirse, kahvaltı yapma algoritmasını ele alalım:<br>
+								
+								1. Masa hazırla.<br>
+								2. Bardağı al ve su doldur.<br>
+								3. Tabağı al ve ekmeği koy.<br>
+								3. Kahvaltılıkları masaya yerleştir.<br>
+								4. Yemeklerin tadını çıkar!<br>
+								5. Bu adımları sırasıyla takip ederek kahvaltınızı hazırlamış olursunuz. İşte bu basit bir algoritmadır.<br><br>
+								
+								Algoritma oluştururken mantıksal düşünme becerilerinizi kullanırsınız. Adımları sıralamak, problemleri parçalara ayırmak ve mantıklı çıkarımlar yapmak önemlidir. Algoritma oluşturmak size problemleri daha kolay ve düzenli bir şekilde çözme yeteneği kazandırır.<br><br>
+								
+								Unutmayın, her problem veya görev için bir algoritma oluşturabilirsiniz. Bu size daha iyi düşünme ve planlama becerileri kazandırır. Algoritma oluşturmayı öğrenmek, sizi programlama ve bilgisayar dünyasına adım atmaya hazırlar.</p>
 						</section><!--//section-->
 				    <section class="docs-section" id="item-1-1">
-						<h2 class="section-heading">Toplama işlemi yapalım.</h2>
-							<p>Python'da toplama işlemi için "+" işareti kullanılır. Bu işlem, sayıları birleştirerek daha büyük bir sayı elde etmek için kullanılır. Örneğin, "2 + 3" işlemi, 2 ve 3 sayılarını toplar ve sonucu verir. Toplama işlemi, matematikteki en temel işlemlerden biridir.
-
-								Aşağıdaki örnekte, iki sayıyı toplayarak sonucu ekrana yazdırıyoruz:</p>
-							<div class="docs-code-block">
-<pre class="shadow-lg rounded"><code class="json hljs">a = 5
-b = 3
-toplam = a + b
-print(toplam)
-</code></pre>
-							</div>
+						<h2 class="section-heading">Programlama Nedir?</h2>
 							<p>
-								Bu kod, "a" ve "b" adlı iki değişkeni tanımlar ve bu değişkenlerin toplamını "toplam" adlı bir değişkene atar. Sonrasında, "print" fonksiyonu ile "toplam" değişkenini ekrana yazdırırız.
-								<br>Ayrıca, kullanıcıdan sayıları alarak toplama işlemi yapabiliriz. Aşağıdaki örnekte, kullanıcıdan iki sayı isteyerek bu sayıları topluyoruz:
+								Programlama dilini kullanarak algoritmanızı bilgisayara anlatabilirsiniz. Algoritma, problemi veya görevi çözmek için izlenmesi gereken adımların sıralı bir listesidir. Bu adımları programlama diliyle yazarak, bilgisayara hangi işlemleri yapması gerektiğini anlatabilirsiniz.<br><br>
+
+								Programlama, yaratıcılığı teşvik eder, mantıksal düşünmeyi geliştirir ve problem çözme becerilerini artırır. Ayrıca, kendinizi ifade etmenizi sağlar ve projeler oluşturmanıza imkan tanır. İster bir oyun tasarlayın, ister bir hikaye anlatın, programlama size birçok farklı proje yapma fırsatı sunar.<br><br>
+
+								Programlamaya başlarken sabırlı olmak önemlidir. Yeni bir dil öğrenmek zaman alabilir, ancak düzenli ve sistematik bir şekilde çalışarak becerilerinizi geliştirebilirsiniz.<br><br>
+
+								İşte bu şekilde programlamaya giriş yapmış oldunuz. İlk adımlarınızı atmaya başlayabilir ve basit projelerle pratik yapabilirsiniz. Unutmayın, programlama size yeni bir dünya açar ve hayal gücünüzün sınırlarını genişletir!
 							</p>
-							<div class="docs-code-block">
-<pre class="shadow-lg rounded"><code class="json hljs">a = input("İlk sayıyı girin: ")
-b = input("İkinci sayıyı girin: ")
-toplam = int(a) + int(b)
-print("Toplam: " + str(toplam))
-</code></pre>
-                        <p>Bu kodda, "input" fonksiyonu kullanarak kullanıcıdan "a" ve "b" adlı iki sayı istiyoruz. Daha sonra, "int" fonksiyonu ile "a" ve "b" değişkenlerini sayıya dönüştürerek toplama işlemi yapıyoruz. Sonrasında, "print" fonksiyonu ile toplamı ekrana yazdırıyoruz.</p>
                        
 					</section><!--//section-->
 					
 					<section class="docs-section" id="item-1-2">
-						<h2 class="section-heading">Çıkarma İşlemi yapalım.</h2>
-						<p>Python'da çıkarma işlemi için "-" işareti kullanılır. Bu işlem, sayılardan küçük bir sayıyı diğerinden çıkararak sonucu verir. Örneğin, "5 - 3" işlemi, 5 sayısından 3 sayısını çıkararak sonucu verir. Çıkarma işlemi de, matematikteki en temel işlemlerden biridir.<br> <br>
+						<h2 class="section-heading">Neler Yapılabilir?</h2>
+						<p>Oyunlar Yaratma: Programlama, çocukların kendi oyunlarını tasarlamalarını sağlar. Scratch gibi blok tabanlı programlama araçlarıyla interaktif oyunlar yapabilirsiniz.Karakterler oluşturabilir, düşmanlar ekleyebilir, seviyeler tasarlayabilir ve oyun kurallarını belirleyebilirsiniz.<br><br>
 
-							Aşağıdaki örnekte, iki sayıyı çıkartarak sonucu ekrana yazdırıyoruz:</p>	
-<pre class="shadow-lg rounded"><code class="json hljs">a = 7
-b = 4
-fark = a - b
-print(fark)					
-</code></pre>
-						<p>
-							Bu kod, "a" ve "b" adlı iki değişkeni tanımlar ve bu değişkenlerin farkını "fark" adlı bir değişkene atar. Sonrasında, "print" fonksiyonu ile "fark" değişkenini ekrana yazdırırız.<br><br>
-							Ayrıca,
-							kullanıcıdan sayıları alarak çıkarma işlemi yapabiliriz. Aşağıdaki örnekte, kullanıcıdan iki sayı isteyerek bu sayıları çıkartıyoruz:
-						</p>
-<pre class="shadow-lg rounded"><code class="json hljs">a = input("İlk sayıyı girin: ")
-b = input("İkinci sayıyı girin: ")
-fark = int(a) - int(b)
-print("Fark: " + str(fark))				
-</code></pre>
-						<p>
-							Bu kodda, "input" fonksiyonu kullanarak kullanıcıdan "a" ve "b" adlı iki sayı istiyoruz. Daha sonra, "int" fonksiyonu ile "a" ve "b" değişkenlerini sayıya dönüştürerek çıkarma işlemi yapıyoruz. Sonrasında, "print" fonksiyonu ile farkı ekrana yazdırıyoruz.
-						</p>
-
+							<strong>Hikaye Anlatma: </strong> Programlama, çocukların kendi interaktif hikayelerini oluşturmalarına yardımcı olur. Scratch gibi platformlarda metin, grafik ve ses öğelerini birleştirerek interaktif hikaye kitapları oluşturabilirsiniz. Karakterlerin konuşmalarını, sahnelerin nasıl ilerleyeceğini ve farklı seçimlerle sonuçların nasıl değişeceğini belirleyebilirsiniz.<br><br>
+							
+							<strong>Animasyonlar Yaratma: </strong> Programlama, çocukların kendi animasyonlarını yapmalarına olanak tanır. Scratch gibi araçlarla karakterlerin hareketlerini, nesnelerin dönüşlerini ve efektleri kontrol edebilirsiniz. Çizgi film benzeri animasyonlar oluşturabilirsiniz.<br><br>
+							
+							<strong>Müzik Oluşturma: </strong> Programlama, çocukların kendi müziklerini oluşturmasını sağlar. Müzik programlama dilleri veya blok tabanlı araçlarla ritimler, melodi ve ses efektleri oluşturabilirsiniz. Kendi şarkılarınızı yapabilir veya müzik oyunları tasarlayabilirsiniz.<br><br>
+							
+							<strong>Robot Programlama: </strong>  Robotik kodlama, çocukların robotları programlamasına izin verir. Öğrenciler, Lego Mindstorms veya Arduino gibi platformlarda robotlar için komutlar yazabilir ve robotların çevreleriyle etkileşimde bulunmasını sağlayabilir. Bu sayede problemleri çözmek veya görevleri yerine getirmek için robotları kullanabilirsiniz.<br><br>
+							
+							Bu sadece birkaç örnek, programlama ile yapabileceğiniz daha birçok şey bulunmaktadır. Önemli olan hayal gücünüzü kullanarak ilgi alanlarınıza yönelik projeler yapmaktır. Programlama size yaratıcılık, problem çözme ve mantıksal düşünme becerileri kazandırırken aynı zamanda eğlenceli bir şekilde öğrenmenizi sağlar.</p>	
 					</section><!--//section-->
 					
 					<section class="docs-section" id="item-1-3">
-						<h2 class="section-heading">Çarpma İşlemi yapalım.</h2>
-						<p>Python'da çarpma işlemi için "*" işareti kullanılır. Bu işlem, sayıları birbirleriyle çarparak sonucu verir. Örneğin, "5 * 3" işlemi, 5 sayısını 3 sayısıyla çarparak sonucu verir. Çarpma işlemi de, matematikteki en temel işlemlerden biridir.<br><br>
+						<h2 class="section-heading">Neden Programlama?</h2>
+						<p><strong>Yaratıcılığınızı Geliştirir:</strong> Programlama, hayal gücünüzü gerçeğe dönüştürme gücü verir. Bir programcı olarak, oyunlar, hikayeler, animasyonlar ve müzikler gibi birçok şey yapabilirsiniz. Kendi fikirlerinizi hayata geçirebilir, düşlerinizi programlarınızla canlandırabilirsiniz.<br><br>
 
-							Aşağıdaki örnekte, iki sayıyı çarparak sonucu ekrana yazdırıyoruz:</p>
-<pre class="shadow-lg rounded"><code class="json hljs">a = 7
-b = 4
-carpim = a * b
-print(carpim)			
-</code></pre>
-						<p>
-							Bu kod, "a" ve "b" adlı iki değişkeni tanımlar ve bu değişkenleri birbirleriyle çarpıp "carpim" adlı bir değişkene atar. Sonrasında, "print" fonksiyonu ile "carpim" değişkenini ekrana yazdırırız.<br><br>
-							Kullanıcıdan sayıları alarak çarpma işlemi yapabiliriz. Aşağıdaki örnekte, kullanıcıdan iki sayı isteyerek bu sayıları çarpıyoruz:
-						</p>
-<pre class="shadow-lg rounded"><code class="json hljs">a = input("İlk sayıyı girin: ")
-b = input("İkinci sayıyı girin: ")
-carpim = int(a) * int(b)
-print("Çarpım: " + str(carpim))	
-</code></pre>
-						<p>
-							Bu kodda, "input" fonksiyonu kullanarak kullanıcıdan "a" ve "b" adlı iki sayı istiyoruz. Daha sonra, "int" fonksiyonu ile "a" ve "b" değişkenlerini sayıya dönüştürerek çarpma işlemi yapıyoruz. Sonrasında, "print" fonksiyonu ile çarpımı ekrana yazdırıyoruz.
-						</p>
-					</section><!--//section-->
-					
-					<section class="docs-section" id="item-1-4">
-						<h2 class="section-heading">Bölme İşlemi yapalım.</h2>
-						<p>Python'da bölme işlemi için "/" işareti kullanılır. Bu işlem, bir sayının diğer sayıya bölünmesi sonucunu verir. Örneğin, "10 / 2" işlemi, 10 sayısının 2 sayısına bölünmesi sonucu 5 verir. Bölme işlemi, matematikteki en temel işlemlerden biridir.<br><br>
-						Aşağıdaki örnekte, iki sayıyı bölerek sonucu ekrana yazdırıyoruz:
-						</p>
-<pre class="shadow-lg rounded"><code class="json hljs">a = 15
-b = 3
-bolum = a / b
-print(bolum)
-</code></pre>
-						<p>
-							Bu kod, "a" ve "b" adlı iki değişkeni tanımlar ve bu değişkenleri birbirlerine bölerek "bolum" adlı bir değişkene atar. Sonrasında, "print" fonksiyonu ile "bolum" değişkenini ekrana yazdırırız.
-							<br><br>
-							Kullanıcıdan sayıları alarak bölme işlemi yapabiliriz. Aşağıdaki örnekte, kullanıcıdan iki sayı isteyerek bu sayıları bölüyoruz:
-						</p>
-<pre class="shadow-lg rounded"><code class="json hljs">a = input("Bölünen sayıyı girin: ")
-b = input("Bölen sayıyı girin: ")
-bolum = int(a) / int(b)
-print("Bölüm: " + str(bolum))
-</code></pre>
-						<p>
-							Bu kodda, "input" fonksiyonu kullanarak kullanıcıdan "a" ve "b" adlı iki sayı istiyoruz. Daha sonra, "int" fonksiyonu ile "a" ve "b" değişkenlerini sayıya dönüştürerek bölme işlemi yapıyoruz. Sonrasında, "print" fonksiyonu ile bölümü ekrana yazdırıyoruz.
+							<strong>Problem Çözme Becerilerinizi Güçlendirir:</strong> Programlama, mantıklı düşünmeyi ve sorunları çözmek için analitik yaklaşımlar geliştirmeyi öğretir. Bir sorunla karşılaştığınızda, bu becerileri kullanarak adım adım çözüm bulabilirsiniz. Bu yetenekler sadece programlama alanında değil, hayatın diğer alanlarında da size yardımcı olur.<br><br>
+							
+							<strong>İnovasyon ve Yenilikçilik:</strong> Programlama, yenilikçi düşünme ve yaratıcı çözümler üretme becerilerini geliştirir. Yeni fikirler üretebilir, teknolojiyi kullanarak yeni ürünler ve hizmetler yaratabilirsiniz. İşte bu şekilde dünyayı değiştirecek harika projeler yapabilirsiniz.<br><br>
+							
+							<strong>Geleceğin Dili:</strong> Teknoloji çağında yaşıyoruz ve programlama geleceğin en önemli dillerinden biri haline geliyor. Programlama bilmeniz, sizlere birçok kariyer fırsatı sunar. Yazılım mühendisi, oyun tasarımcısı, veri analisti gibi birçok farklı alanda çalışabilirsiniz.<br><br>
+							
+							<strong>İşbirliği ve Ekip Çalışması:</strong> Programlama, başkalarıyla birlikte çalışma ve fikirleri paylaşma becerilerinizi geliştirir. Bir projede ekip olarak çalışırken, birlikte problem çözebilir, projelerinizi geliştirebilir ve birbirinize yardımcı olabilirsiniz. Bu da iletişim ve işbirliği becerilerinizi güçlendirir.<br><br>
+							
+							Unutmayın, programlama herkes için uygun bir etkinlik. Yaşınız veya yetenekleriniz ne olursa olsun, programlama öğrenmeye başlayabilirsiniz. Başlangıçta küçük adımlarla başlayın ve zamanla yeteneklerinizi geliştirin.
 						</p>
 					</section><!--//section-->
 					
