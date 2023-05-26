@@ -9,8 +9,8 @@ Soru.prototype.cevabiKontrolEt = function(cevap){
 }
 
 let sorular = [
-    new Soru("Python'da hangi kelimeyi kullanarak ekrana bir metin yazdırabilirsiniz?", {a: "input", b: "output ", c: "print ", d: "display"}, "c"),
-    new Soru("Hangi matematiksel işlemi Python'da '*' sembolüyle ifade edersiniz?", {a: "Toplama ", b: "Çıkarma ", c: "Çarpma ", d: "Bölme"}, "c"),
-    new Soru("Hangi kod parçası, kullanıcıdan bir sayı girmesini ister?", {a: 'input("Lütfen bir sayı giriniz: ")', b: 'print("Lütfen bir sayı giriniz: ")', c: 'output("Lütfen bir sayı giriniz: ")', d:'display("Lütfen bir sayı giriniz: ")'}, "a"),
-    new Soru("Python'da hangi kelimeyi kullanarak, bir sayının karesini alabilirsiniz?", {a: "pow ", b: "sqrt ", c: "square ", d: "sqr"}, "a"),
+    new Soru("Algoritmanın tanımı aşağıdakilerden hangisi olabilir?", {a: "bir problemi çözmek veya bir görevi tamamlamak için izlenmesi gereken adımlardır. ", b: "bir bilgisayar programıdır. ", c: "ir programlama dilidir. ", d: "bilgisayar oyunlarına verilen isimdir."}, "a"),
+    new Soru("Programlamanın tanımı aşağıdakilerden hangisi olabilir?", {a: "bilgisayar dili ile algoritmanızı bilgisayara anlatmaktır. ", b: "bir bilgisayar üretmeye denir. ", c: "matematik problemlerine denir. ", d: "bir sınav sistemidir."}, "a"),
+    new Soru("Hangi etkinlik programlama kullanılarak gerçekleştirilebilir?", {a: 'Müzik dinleme', b: 'Yemek pişirme', c: 'Oyun yapma', d:'Spor yapma'}, "c"),
+    new Soru("Programlama neden önemlidir?", {a: "Yaratıcılığı geliştirir ve hayal gücünü gerçeğe dönüştürme gücü verir. ", b: "Fiziksel egzersiz yapmaya yardımcı olur. ", c: "Sadece matematikle ilgilenenler için uygundur. ", d: "Sadece bir meslek seçeneği sunar."}, "a"),
 ];

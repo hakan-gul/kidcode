@@ -113,7 +113,7 @@ if($_SESSION["name"]) {
               <span class="img-wrap"><img src="images/flaticon/svg/002-target.png" alt="Image" class="img-fluid"></span>
               <h3 class="text-cursive font-effect-anaglyph">HTML / CSS</h3>
               <p class="font-size-20">HTML / CSS dersleri sayesinde hayalinizdeki eğlenceli website tasarımlarını özgürce kodlayabileceksiniz.</p>
-               <p><a href="#" class="btn btn-warning btn-custom-1 mt-3 text-cursive font-effect-3d-float">Daha Fazla</a></p> 
+               <p><a href="./htmlcss" class="btn btn-warning btn-custom-1 mt-3 text-cursive font-effect-3d-float">Daha Fazla</a></p> 
             </div>
           </div>
           <div class="col-lg-4 mb-4 mb-lg-0">
