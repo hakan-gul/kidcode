@@ -9,8 +9,8 @@ Soru.prototype.cevabiKontrolEt = function(cevap){
 }
 
 let sorular = [
-    new Soru("Python'da hangi kelimeyi kullanarak ekrana bir metin yazdırabilirsiniz?", {a: "input", b: "output ", c: "print ", d: "display"}, "c"),
-    new Soru("Hangi matematiksel işlemi Python'da '*' sembolüyle ifade edersiniz?", {a: "Toplama ", b: "Çıkarma ", c: "Çarpma ", d: "Bölme"}, "c"),
-    new Soru("Hangi kod parçası, kullanıcıdan bir sayı girmesini ister?", {a: 'input("Lütfen bir sayı giriniz: ")', b: 'print("Lütfen bir sayı giriniz: ")', c: 'output("Lütfen bir sayı giriniz: ")', d:'display("Lütfen bir sayı giriniz: ")'}, "a"),
-    new Soru("Python'da hangi kelimeyi kullanarak, bir sayının karesini alabilirsiniz?", {a: "pow ", b: "sqrt ", c: "square ", d: "sqr"}, "a"),
+    new Soru("HTML nedir?", {a: "İnternet sayfalarının yapı taşıdır.", b: "E-postaları yönetmek için kullanılır. ", c: "Resim düzenleme programıdır. ", d: "Müzik dinlemek için kullanılır."}, "a"),
+    new Soru("CSS ne işe yarar?", {a: "Web sayfalarını renklendirir ve düzenler. ", b: "Matematik problemlerini çözer. ", c: "Fotoğraf düzenleme yapar. ", d: "E-postaları gönderir ve alır."}, "a"),
+    new Soru("Hangi etiket resim eklemek için kullanılır?", {a: '<div>', b: '<a>', c: '<p>', d:'<img>'}, "d"),
+    new Soru("CSS ile hangi özellikleri değiştirebiliriz?", {a: "Yazı tipi ve boyutunu. ", b: "Sayfanın arka plan rengini. ", c: "Kenarlık ekleyebiliriz. ", d: "Hepsi."}, "d"),
 ];
