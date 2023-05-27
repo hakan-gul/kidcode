@@ -60,14 +60,14 @@ background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
       </div>  
       </div>
       <div class="form-floating">
-        <input type="text" class="form-control is-invalid" id="floatingInput" placeholder="E-Posta" name="name">
+        <input type="text" class="form-control" id="floatingInput" placeholder="E-Posta" name="name">
         <label for="floatingInput">E-Posta</label>
         <!-- <div class="invalid-feedback">
         Kullanıcı Adı giriniz.
       </div>   -->
       </div>
       <div class="form-floating">
-        <input type="password" class="form-control is-invalid" id="floatingPassword" placeholder="Şifre" name="password">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Şifre" name="password">
         <label for="floatingPassword">Şifre</label>
         <!-- <div class="invalid-feedback">
         Kullanıcı Adı giriniz.
