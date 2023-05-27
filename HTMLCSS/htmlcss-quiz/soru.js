@@ -11,6 +11,6 @@ Soru.prototype.cevabiKontrolEt = function(cevap){
 let sorular = [
     new Soru("HTML nedir?", {a: "İnternet sayfalarının yapı taşıdır.", b: "E-postaları yönetmek için kullanılır. ", c: "Resim düzenleme programıdır. ", d: "Müzik dinlemek için kullanılır."}, "a"),
     new Soru("CSS ne işe yarar?", {a: "Web sayfalarını renklendirir ve düzenler. ", b: "Matematik problemlerini çözer. ", c: "Fotoğraf düzenleme yapar. ", d: "E-postaları gönderir ve alır."}, "a"),
-    new Soru("Hangi etiket resim eklemek için kullanılır?", {a: '<div>', b: '<a>', c: '<p>', d:'<img>'}, "d"),
+    new Soru("Hangi etiket resim eklemek için kullanılır?", {a: '&lt;div&gt;', b: '&lt;a&gt;', c: '&lt;p&gt;', d:'&lt;img&gt;'}, "d"),
     new Soru("CSS ile hangi özellikleri değiştirebiliriz?", {a: "Yazı tipi ve boyutunu. ", b: "Sayfanın arka plan rengini. ", c: "Kenarlık ekleyebiliriz. ", d: "Hepsi."}, "d"),
 ];
