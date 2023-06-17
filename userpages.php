@@ -104,7 +104,7 @@ if($_SESSION["name"]) {
               <span class="img-wrap"><img src="images/flaticon/svg/001-jigsaw.svg" alt="Image" class="img-fluid"></span>
               <h3 class="text-cursive font-effect-anaglyph">Algoritma</h3>
               <p class="font-size-20">Algoritma ve programlamaya giriş dersi sayesinde programlamaya sağlam ve net bir giriş yapabileceksiniz.</p>
-              <p><a href="./algoritma" class="btn btn-primary btn-custom-1 mt-4 text-cursive font-effect-3d-float">Daha Fazla</a></p>
+              <p><a href="./algoritma" class="btn btn-primary btn-custom-1 mt-4 text-cursive font-effect-3d-float">Öğrenmeye Başla</a></p>
             </div>
           </div>
           <div class="col-lg-4 mb-4 mb-lg-0">
@@ -113,7 +113,7 @@ if($_SESSION["name"]) {
               <span class="img-wrap"><img src="images/flaticon/svg/002-target.png" alt="Image" class="img-fluid"></span>
               <h3 class="text-cursive font-effect-anaglyph">HTML / CSS</h3>
               <p class="font-size-20">HTML / CSS dersleri sayesinde hayalinizdeki eğlenceli website tasarımlarını özgürce kodlayabileceksiniz.</p>
-               <p><a href="./htmlcss" class="btn btn-warning btn-custom-1 mt-3 text-cursive font-effect-3d-float">Daha Fazla</a></p> 
+               <p><a href="./htmlcss" class="btn btn-warning btn-custom-1 mt-3 text-cursive font-effect-3d-float">Öğrenmeye Başla</a></p> 
             </div>
           </div>
           <div class="col-lg-4 mb-4 mb-lg-0">
@@ -122,7 +122,7 @@ if($_SESSION["name"]) {
               <span class="img-wrap"><img src="images/flaticon/svg/003-mission.png" alt="Image" class="img-fluid"></span>
               <h3 class="text-cursive font-effect-anaglyph">Python</h3>
               <p class="font-size-20">Python dersleri sayesinde robotik kodlama, yapay zeka ve yazılımın birçok dalı için güzel bir temel oluşturabileceksiniz.</p>
-               <p><a href="./python/index.html" class="btn btn-success btn-custom-1 mt-4 text-cursive font-effect-3d-float">Daha Fazla</a></p> 
+               <p><a href="./python/index.html" class="btn btn-success btn-custom-1 mt-4 text-cursive font-effect-3d-float">Öğrenmeye Başla</a></p> 
             </div>
           </div>
         </div>

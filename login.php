@@ -26,33 +26,34 @@
     <link href="./css/signin.css" rel="stylesheet">
 
   </head>
-  <body class="text-center"  style="background-image: url('./images/bg-login.png'); background-size:cover;"
-   
+  <body class="text-center"  style=" height: 100vh; background-color: #D9AFD9;
+background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+  "
 >
     
-<main class="form-signin text-white">
-  <div class="container" style="padding:20px; background:transparent; border: 2px solid rgba(255,255,255,0.5); border-radius: 20px; backdrop-filter: blur(15px);">
-  <form method="POST" class="mb-5 text-white">
+<main class="form-signin">
+  <div class="container">
+  <form method="POST" class="mb-5">
     <img class="mb-4" src="./images/logo-dark.png" alt="" style="max-width: 100% !important;
                       width: 287px !important;
                       height: 60px !important;">
     <h1 class="h3 mb-3 fw-normal" style="color:#3a3a3a">Giriş Yap</h1>
 
     <div class="form-floating ">
-      <input style="background:transparent;" type="text" class="form-control" id="floatingInput" placeholder="Kullanıcı Adı" name="user_name">
+      <input type="text" class="form-control" id="floatingInput" placeholder="Kullanıcı Adı" name="user_name">
       <label for="floatingInput">Kullanıcı Adı</label>
       <div class="invalid-feedback">
         Kullanıcı Adı giriniz.
       </div>  
     </div>
     <div class="form-floating">
-      <input style="background:transparent;"  type="password" class="form-control" id="floatingPassword" placeholder="Şifre" name="password">
+      <input   type="password" class="form-control" id="floatingPassword" placeholder="Şifre" name="password">
       <label for="floatingPassword">Şifre</label>
       <div class="invalid-feedback">
         Please choose a username.
       </div>
     </div>
-    <button style="background:transparent;"  class="w-100 btn btn-lg btn-light" type="submit" name="login">Giriş Yap</button>
+    <button  class="w-100 btn btn-lg btn-light" type="submit" name="login">Giriş Yap</button>
 
   </form>
   </div>
